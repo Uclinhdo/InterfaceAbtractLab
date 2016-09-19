@@ -13,6 +13,7 @@ public class Startup {
     public static void main(String[] args) {
         ProgrammingCourse student = new AdvancedJavaCourse("Advanced Java","12345");
         
+       student.getPrerequisites();
        
     }
 }
